@@ -1,0 +1,63 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<style>
+    div{
+        background-color: rgb(203, 178, 202);
+    }
+</style>
+</head>
+<body>
+    <div class="picture"> <img src="AAA.jpg" alt="Cinque Terre" width="150" height="250">
+    </div>
+   
+<div class="pcv">   
+
+<h1>CV FORM</h1>
+<fieldset>
+<legend>Personal Information</legend>
+<p><label>Name:
+    <input name ="name" type ="text">
+</label></p> 
+
+<p>Gender:
+    <label for="male">Male
+    <input name ="gender" value="male" id="male" type="radio">
+    </label>
+    <label for="Female">Female 
+    <input name ="gender" type ="radio" id="Female" value="Female">
+    </label>
+</p>
+
+<p>Enter a phone number:<br>
+<label for="phone"><input type = "tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">format 555-55-555 </label></p>
+
+<p> Your linkedin page: <label for="link"><input name = "link" type = "link"></label> EMAIL:<label for="email"><input name = "email" type="email"></label></p>
+</fieldset>
+<p><label for="quantity">Years of experience(between 3 and 10):</label><input type="number"></p>
+
+<p ><label for="quantity">expected salary:</label>4000<input type="range" min="4000" max="10000" >10000</p>
+
+<p>language:<br>
+    <label>Arabic<input type="checkbox"></label><br><label>English<input type="checkbox"></label><br>
+</p>
+
+<p><label for="myfile">Uplaod your CV:</label> <input type="file" id="Choose File" name="Choose File"></label></p>
+<p><label for="week">The nearest week you can start work</label><input type="week" id="week" name="week"></p>
+<p><label for="month">The nearest month you can start work</label><input type="month" id="month" name="month"></p>
+<p><label for="appt">the best time to work</label><input type="time" id="appt" name="appt"></p>
+<p>Majors <label><input type="text"></label></p>
+
+<p><label>why you want to work with us<br>
+<textarea rows="4" cols="36"></textarea></label></p>
+<p>
+    <input type="submit" value="send">
+    <input type="reset" value="Reset">
+</p>
+
+
+</div>
+</body>
+
+
+</html>
