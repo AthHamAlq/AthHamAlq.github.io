@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sheet 7 Task2</title>
+    <script>
+        function clock() {
+            
+            var name = prompt("Please enter your name:");
+            var hour = new Date().getHours();
+            
+            if (hour >= 0 && hour < 12) {
+                alert("Good morning" + name );
+            } 
+            else {
+                alert("Good afternoon" + name );
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="clock()">Click me</button>
+</body>
+</html>
